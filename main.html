@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font ">
+        <div class="container mx-auto flex flex-wrap px-2 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 ">
+            <span class="ml-1 text-l w-1 h-18 text-white p-2 bg-red-400 rounded text-gray-900">CRUNCH <br> BYTES</span>
+            <img class=" flex flex-col pl-8 py-4 w-16 mt-5 mx-4 " src="https://media.istockphoto.com/vectors/delivery-vector-id1083603292?k=6&m=1083603292&s=612x612&w=0&h=QcVqStNPAkXm0LaApT5g0pe_83ItHEkifk6r6TH9Bic=" alt="">
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-red-700 " href="#">HOME</a>
+            <a class="mr-5 hover:text-red-700" href="#">RESTAURANTS</a>
+          </nav>
+          <button class=" m-2 bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+            Logg In
+          </button>
+          <button class="bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+            Sign Up
+          </button>
+          
+          
+        </div>  
+      </header>
+      <main class=" bg-cover bg-no-repeat bg-cover">
+        <div class="flex flex-col container py-24 mx-auto  ">
+          <h1 class= " text-center text-3xl text-white  " > YOUR FAVORITE FOOD IN ONE CLICK</h1>
+           <p class= " text-center text-2xl text-white ">The meals you love, delivered with care</p>
+           <button id="btn" class=" flex justify-center mx-auto bg-transparent hover:bg-white text-red-700 font-semibold hover:text-red py-2 px-4 border border-red-500 hover:border-red rounded">
+            Let's Start
+          </button>
+        </div>
+      </main>
+      <section class="text-gray-600 body-font">
+        <div class="container px-8 mx-auto ">
+          <div class="flex flex-col text-center w-full mb-10">
+            <h1 class="text-xl text-indigo-500 tracking-widest font-medium title-font my-2">TOP RESTAURANTS</h1>
+          </div>
+        <div class="container py-5 pl-12 mx-auto">
+          <div class="flex flex-wrap -m-2 ">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block " src="https://www.malivraisonpaul.fr/pub/Logo.png">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Paul Restaurant</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">French Daily Food</h2>               
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block" src="https://www.jwmarriottmarquisdubailife.com/Content/uploads/images/logos/lafarine.png">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">La Farine</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">French Food</h2>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Zaatar_W_Zeit_Logo-01.svg/1200px-Zaatar_W_Zeit_Logo-01.svg.png">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Zaater w Zeit</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Lebanees Food</h2>
+              </div>
+            </div>
+            
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block" src="https://offerengine.theentertainerme.com/slice-restaurant-x23877198/merchant_primary_logo_%28retina%29_-_merchant.jpg">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Slice By Movenpick</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Daily Food</h2>
+              </div>
+            </div>
+            
+          </div>
+        
+        <div class="container my-5 ">
+          <div class="flex flex-wrap -m-2 ">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block " src="https://bcassetcdn.com/public/blog/wp-content/uploads/2019/07/18094833/the-red-cafe.png">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">The Red Cafe</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Intercontinental</h2>               
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block" src="https://i.pinimg.com/originals/53/d1/db/53d1dbfdec83d1d7c12a55efa2639656.jpg">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Siana</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Sea Food</h2>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block" src="https://i.pinimg.com/originals/d1/2f/ab/d12fab595baf9a4ab5e90843f593931a.jpg">
+              </a>
+              <div class="mt-2">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Noodle House</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Asian Food</h2>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="Restaurant" class="object-cover object-center w-4/5 h-4/5 block" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gwSSP-ZIZ6rb2HSmQVDu65xlXgTMCLHW6w&usqp=CAU">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Maria's</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Mixican Food</h2>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <button class=" flex items-center mx-auto m-2 bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+        Find More
+      </button>
+      </section>
+      <footer class="text-white body-font bg-red-600 mt-16 ">
+        <div class="container px-2 py-4 mx-auto flex items-center sm:flex-row flex-col">
+          <p class="text-sm text-white sm:ml-2 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2021 CRUNCHBYTES —
+            <a href="https://twitter.com" class="text-white ml-1" rel="noopener noreferrer" target="_blank">@ByInternship</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start mx-8">
+            <a class="text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5 transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+    
+</body>
+</html>

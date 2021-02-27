@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+          <div class=" bg-contain bg-no-repeat bg-cover relative ">
+
+              <img src="https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-italian-blue-scaled.jpg" alt="">
+          </div>
+          <div class=" flex bg-gray-100 relative">
+
+              <div id="logIn" class="flex flex-col border border-gray-100 rounded shadow-md bottom-40 left-0 bg-white block  mx-auto pt--7 relative h-full w-3/6 rounded overflow-hidden  ">
+                  <h2 class="text-center my-8 text-3xl text-blue-800 ">Log In</h2>
+                  <input type="text" name="identity" required="" class=" w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded text pl-3 " placeholder="your email address*">
+                  <input type="password" name="credential" required="" class=" w-3/5 h-10 my-4 mx-auto form-control border border-gray-500 rounded text pl-3" placeholder="Your password*">
+                  <button class=" flex items-center mx-auto m-2 bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-8 border border-red-500 hover:border-transparent rounded">
+                      Log In
+                    </button>
+                    <p id="btnSignUp" class="text-blue-800 mx-auto py-10"><a href="#" class="uppercase underline mx-auto py-10 text-blue-800">Don't have an account? Sign up here!</a></p>
+
+              </div>
+              <div id="signUp"class=" hidden flex flex-col w-4/5 mx-auto border border-gray-200 rounded bottom-44 left-0 bg-white block  mx-auto pt--7 relative h-full w-3/5 rounded overflow-hidden shadow-md">
+                  <a class="back-home" href="/"><span class="icon-house"></span></a>
+                  <h2 class=" text-center my-8 text-3xl text-blue-800">Create your account</h2>
+          
+              <form method="post" class="flex flex-col w-4/5 h-3/5 mx-auto bg-transparent" data-form="register-form" novalidate="novalidate">
+                      
+                        <input type="text" name="first_name" required="" class="w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded pl-2" placeholder="Restaurant Name*">
+                        <input type="text" name="last_name" required="" class="w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded pl-2" placeholder="Last name*">
+                      <input type="email" required="" name="email" class="w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded pl-2" placeholder="Email">
+                          <select name="country" class="w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded pl-1"required="">
+                              <option value="">Chose Area*</option>
+                                            <option value="jbr">Jumeirah Beach Resident</option>
+                                            <option value="dt">Down Town</option>
+                                            <option value="dp">DIP-1</option>
+                                            <option value="dp">DIP-2</option>
+                                            <option value="ab">Albarsha</option>
+                                            <option value="al">Alsofouh</option>
+                                            
+                          </select>
+                      <input id="password" type="password" required="" name="password" class="w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded pl-1" placeholder="Password"> 
+                      <input id="passwordVerify" type="password" required="" name="passwordVerify" class="w-3/5 h-12 my-4 mx-auto form-control border border-gray-500 rounded pl-1" placeholder="Confirm password">
+                    <div class="text-center">
+                      <label>
+                        <input type="checkbox" id="accept_use" name="accept_use" checked="">
+                        <span class="cr"><i class="icomoon icon-check"></i></span>
+                        You agree to receive communications from us.            </label>
+                    </div>
+                    <div class="text-center">
+                      <label>
+                        <input type="checkbox" id="accept_conditions" name="accept_conditions">
+                        <span class="cr"><i class="icomoon icon-check"></i></span>
+                        By signing up you agree to  <a href="#"></a><a href="https://www.accorhotels-bienvenue.com/user/legal/terms-use/">terms and conditions</a>
+                      </label>
+                    </div>
+                    <div class="text-center" style="font-size: 13px;color: #666666; line-height: 2;">
+                      <p>
+                        <i>
+                          * Fields with an asterisk are mandatory.              </i>
+                      </p>
+                    </div>
+                    <button class=" flex items-center mx-auto m-2 bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                      Lets'go
+                    </button>
+                    <div>
+                    <p class="py-6 text-center">
+                      <a id="btnLogIn" class="uppercase cursor-pointer text-blue-800">
+                          Already have an account? Log in!            </a>
+                    </p>
+                    
+                    <br>
+                  </div>
+                  </div>
+                  
+              </div> 
+          </form>
+          
+          
+          
+      </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
